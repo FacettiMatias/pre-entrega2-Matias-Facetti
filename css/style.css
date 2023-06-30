@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;    
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(33, 30, 30);
+}
+nav{
+    background-image: url(../multimedia/bat.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px 5px;
+    padding: 10px 10px;
+    position: sticky;
+    top: 0px;
+}
+nav img{
+    height: 80px;
+    width: 80px;
+}
+nav svg{
+    height: 40px;
+    width: 40px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    border: solid 1px rgb(206, 201, 195);
+    border-radius: 10px;
+    margin: 0px 10px;
+    /* agregar hover */
+}
+    #white-text li a{
+        color: rgb(206, 201, 195);
+    }
+    .login-btn{
+        text-decoration: none;
+        color:rgb(206, 201, 195) ;
+        margin-right: 20px;
+        
+    }
+    .search-bar{
+        height: 20px;
+        width: 120px;
+        align-self: center;
+    }
+    h1{
+        font-size: 3em;
+        text-align: center;
+    }
+    h2{
+        font-size: 2em;
+        margin-left: 20px;
+    }
+    h1,
+    h2{
+        color: rgb(19, 19, 214);
+    }
+    .intro h1,h2 {
+        text-align: center;
+    }
+    .intro p{
+        font-size: 1.5em;
+    }
+    p{
+        color: rgb(206, 201, 195);
+        text-align: center;
+    }
+    .shop-cart{
+        height:60px;
+        width: 60px;
+    }
+    .shop-cart svg{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .index-intro{
+        text-align: center;
+         margin-top: 10px ;
+    }
+    .index-highlight-products{
+        padding: 20px 10px;
+        margin: 10px 10px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+    }
+    .index-highlight-products figure{
+        width: 45%;
+        border: solid  rgb(206, 201, 195);
+        margin: 10px 10px;
+        padding: 10px 10px;
+        text-align: center;
+    }
+    .index-highlight-products figure figcaption{
+        color: rgb(19, 19, 214);
+    }
+    .index-highlight-products img{
+        height: 500px;
+        width: 500px;
+    }
+    .index-highlight-products figure button{
+        border-radius: 10px;
+        background-color:rgb(19, 19, 214) ;
+        color: rgb(206, 201, 195) ;
+    }
+    .index-hot-offers{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+        padding: 10px 10px;      
+    }
+    
+    .index-hot-offers figure{
+        width: 45%;
+        border: solid  rgb(206, 201, 195);
+        margin: 10px 10px;
+        padding: 10px 10px;
+        text-align: center;
+    }
+    
+    .index-hot-offers figure img{
+        height: 500px;
+        width: 500px;
+    }
+    .index-hot-offers figure button{
+        border-radius: 10px;
+        background-color:rgb(19, 19, 214) ;
+        color: rgb(206, 201, 195) ;
+
+    }
+    footer{
+        background-color:rgb(19, 19, 214) ;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 15px;
+        align-items: center;
+    }
+    footer div a{
+        margin: 10px 10px;
+    }
+    footer svg{
+        color:  rgb(206, 201, 195);
+        height: 60px;
+        width: 60px;
+    }
+    footer img{
+        height: 70px;
+        width: 70px;
+    }
+    footer a{
+        color:rgb(206, 201, 195) ;
+    }
+    .contact-chat h2{
+        margin-left: 10%;
+        text-align: start;
+    }
+    .contact-chat{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contact-chat a{
+        margin: 10px 10px;
+        text-decoration: none;
+        font-size: 1.5em;
+        color:rgb(206, 201, 195)
+    }
+    .contact-svg{
+        color:rgb(206, 201, 195) ;
+        height: 50px;
+        width: 50px;
+        margin: 5px 10px;
+    }
+    .contact-location h2{
+        margin-left: 10%;
+        text-align: start;
+    }
+    .contact-iframe{
+        margin: 15px 15px;
+        padding: 10px 10px;
+    }
+    .login-form form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .login-form form input{
+        margin: 7px 0px;
+        padding: 0px 10px;
+        height: 50px;
+        width: 200px;
+        background-color:rgb(67, 67, 255) ;
+        border-radius: 20px;
+        border-style: hidden;
+        font-size: 1em;
+    }
+    .ps4-games {
+        margin: 10px 10px;
+        padding: 5px 5px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);  
+        align-items: center;
+        justify-content: center;
+    }
+    .ps4-games figure{
+        margin: 10px 10px;
+        padding: 5px 5px;
+        border: solid  rgb(206, 201, 195) 2px;
+        text-align: center;      
+    }
+    .ps4-games figure figcaption{
+        color:rgb(206, 201, 195);
+        margin:5px 5px;
+        font-size: 1.5em;
+    }
+    .ps4-games figure p{
+        font-size: 1.3em;
+    }
+    .ps4-games figure button{
+        background-color:rgb(67, 67, 255);
+        color: rgb(206, 201, 195);
+        margin: 10px 0px;
+        height: 60px;
+        width: 100px;
+        font-size: 1.3em;
+    }
+    .ps4-games figure #batman-img{
+    width: 100%;
+    height: 100%;
+    }
+    .ps4-games figure img{
+        padding: 10px 0px;
+    }
+    .login-suscribe{
+        text-align: center;
+        font-size: 1.4em;
+        margin-bottom: 20px;
+    }
+    .peripherics-catalog{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        margin: 10px 10px; 
+             
+    }
+    .peripherics-catalog figure{
+        border: solid 1px rgb(206, 201, 195) ;
+        margin: 10px 10px;
+        
+    }
+    .peripherics-catalog img{
+        height: 500px;
+        width: 500px;
+    }
+    .terms-p{
+        color: rgb(206, 201, 195);
+        font-size: medium;
+    }
+    .peripherics-catalog figure button{
+        background-color:rgb(67, 67, 255);
+        color: rgb(206, 201, 195);
+        margin: 10px 0px;
+        height: 60px;
+        width: 100px;
+        font-size: 1.3em;
+    }
+    @media (width < 768px){
+        .index-highlight-products{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .index-highlight-products figure{
+            width: 100%;
+        }
+        
+        nav{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .index-highlight-products figure{
+            border:none        
+        }
+        .index-highlight-products figure button{
+            width: 100px;
+            height: 40px;
+        }
+        
+        nav svg{
+            height: 20px;
+            width: 20px;
+        }
+        footer{
+            width: 100%;
+        }
+        .ps4-games{
+            display: grid;
+            grid-template-columns: 100%;
+        }
+        .ps4-games figure{
+            width: 100%;
+            padding: 10px 20%;
+            border: none;
+        }
+        .ps4-games figure img{
+            width: 50%;
+            min-width: 300px;      
+        }
+        
+        .index-highlight-products img{
+            height: 200px;
+            max-width: 500px;
+            min-width: none;
+        }
+    }
