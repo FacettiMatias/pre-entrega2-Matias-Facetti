@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
   </head>
-  <nav class="navbar navbar-expand-lg ">
+  <nav class="navbar navbar-expand-lg sticky-top ">
     <div class="container-fluid">
       <a class="navbar-brand" href="../index.html">
         <img src="../multimedia/ninja.png" alt="logo matigames ninja">
@@ -82,7 +82,7 @@
         <div>  
           <form role="search">
             <input class="search-bar" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">
+            <button class="btn btn-outline-light " type="submit">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
               <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
               </svg>
@@ -98,24 +98,82 @@
     </div>
   </nav>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <h1>Ofertas</h1>
-    <h2> Ofertas en perifericos</h2>
-    <section class="container ">
-      <div class="row row-cols-2 ps4.games">
-        <div class="col">
-          <figure>
-            <img src="../multimedia/auricular-red.png" alt="auricular redragon">
-            <figcaption>auricular redragpn Zeus</figcaption>
-            <p>auricular ideal para cazar a todo lo que haga ruido, comodidad y calidad incomparable</p>
-            <button>Comprar</button>
-          </figure>
+    <main>
+      <h1>Ofertas</h1>
+      <h2> Ofertas en perifericos</h2>
+      <section class="container">
+        <div class="row row-cols-2 mt-2 px-2">
+          <div class="col-md-6 my-2 px-2 py-2 ">
+            <figure class="offers-catalog">
+              <img class="px-3 py-3" src="../multimedia/auricular-red.png" alt="auricular redragon">
+              <figcaption>auricular redragon Zeus</figcaption>
+              <p>auricular ideal para cazar a todo lo que haga ruido, comodidad y calidad incomparable</p>
+              <button>Comprar</button>
+            </figure>
+          </div>
+          <div class="col-md-6 my-2 px-2 py-2">
+            <figure class="offers-catalog">
+              <img class="px-3 py-3" src="../multimedia/teclado-red.png" alt="teclado redragon">
+              <figcaption>teclado redragon</figcaption>
+              <p>teclado mecanico redragon. ofrece calidad,durabilidad y comodidad</p>
+              <button>Comprar</button>
+            </figure>
+          </div>
+          <div class="col-md-6  my-2 px-2 py-2">
+            <figure class="offers-catalog">
+              <img class="px-3 py-3" src="../multimedia/monitor.png" alt="monitor samsung curvo">
+              <figcaption>monitor samsung curvo gamer</figcaption>
+              <p>monitor ideal para poder ver exactamente lo que pasa en pantalla, sin tener que preocuparse de los reflejos de la luz</p>
+              <button>Comprar</button>
+            </figure>
+          </div>
+          <div class="col-md-6 my-2 px-2 py-2">
+            <figure class="offers-catalog">
+              <img class="px-3 py-3" src="../multimedia/mouse-red.png" alt="mouse inalambrico redragon">
+              <figcaption>mouse inalambrico redragon</figcaption>
+              <p>mouse inalambrico estandar redragon, tan confiable como economico</p>
+              <button>Comprar</button>
+            </figure>
+          </div>
         </div>
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
-      </div>
-    </>
+      </section>
+      <h2>Ofertas en videojuegos</h2>
+      <section class="container">
+        <div class="row row-cols-2 mt-2 px-2">
+          <div class="col-md-6 my-2 px-2 py-2 ">
+            <figure class="offers-catalog">
+              <img class="px-3 py-3" src="../multimedia/hades.jpg" alt="Hades">
+              <figcaption>Hades PS/xbox/pc</figcaption>
+              <p>el infierno es tu enemigo, tambien tu hogar, ¿podras escapar?</p>
+              <button>Comprar</button>
+            </figure>
+          </div>
+          <div class="col-md-6 my-2 px-2 py-2">
+            <figure class="offers-catalog">
+              <img class="px-3 py-3" src="../multimedia/mortal-kombat.png" alt="mortal kombat 11">
+              <figcaption>Mortal Kombat 11 PS.xbox,pc</figcaption>
+              <p>la ultima entrega de la saga mas sangrienta y legendaria en la historia de los videojuegos de pelea</p>
+              <button>Comprar</button>
+            </figure>
+          </div>
+          <div class="col-md-6  my-2 px-2 py-2">
+            <figure class="offers-catalog">
+              <img class="px-3 py-3" src="../multimedia/monitor.png" alt="Halo infinite">
+              <figcaption>halo infinite xbox,pc</figcaption>
+              <p>el jefe maestro viene una vez mas, para enfrentarse a un ejercito aun mas grande,con aun mas armas</p>
+              <button>Comprar</button>
+            </figure>
+          </div>
+          <div class="col-md-6 my-2 px-2 py-2">
+            <figure class="offers-catalog">
+              <img class="px-3 py-3" src="../multimedia/doom.jpg" alt="doom eternal">
+              <figcaption>doom eternal PS, xbox,pc</figcaption>
+              <p>el doom slayer esta listo para aniquilar a la raza demoniaca que osa invadir la tierra... bajo su guardia</p>
+              <button>Comprar</button>
+            </figure>
+          </div>
+        </div>
+      </main>
     <footer>
       <div>
         <a href="https://facebook.com/" target="_blank">
@@ -145,3 +203,4 @@
     </footer>
   </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

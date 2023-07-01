@@ -14,8 +14,6 @@ nav{
     background-position: center;
     margin: 5px 5px;
     padding: 10px 10px;
-    position: sticky;
-    top: 0px;
 }
 nav img{
     height: 80px;
@@ -53,10 +51,12 @@ nav ul li{
     h1{
         font-size: 3em;
         text-align: center;
+        font-weight: 800;
     }
     h2{
         font-size: 2em;
         margin-left: 20px;
+        font-weight: 400;
     }
     h1,
     h2{
@@ -82,7 +82,7 @@ nav ul li{
         height: 50px;
         width: 50px;
         margin: 5px 10px;
-        color: rgb(206, 201, 195);
+        color:rgb(206, 201, 195);
     }
     
     .index-intro{
@@ -122,7 +122,7 @@ nav ul li{
         padding: 10px 10px;      
     }
     
-    .index-hot-offers figure{
+        .index-hot-offers figure{
         width: 45%;
         border: solid  rgb(206, 201, 195);
         margin: 10px 10px;
@@ -130,64 +130,64 @@ nav ul li{
         text-align: center;
     }
     
-    .index-hot-offers figure img{
+        .index-hot-offers figure img{
         height: 500px;
         width: 500px;
     }
-    .index-hot-offers figure button{
+        .index-hot-offers figure button{
         border-radius: 10px;
         background-color:rgb(19, 19, 214) ;
         color: rgb(206, 201, 195) ;
-
     }
-    footer{
-        background-color:rgb(19, 19, 214) ;
-        display: flex;
-        justify-content: space-between;
-        padding: 15px 15px;
-        align-items: center;
-    }
-    footer div a{
+    .offers-catalog{
         margin: 10px 10px;
+        padding: 5px 5px;
+        border: solid  rgb(206, 201, 195) 2px;
+        text-align: center;    
     }
-    footer svg{
-        color:  rgb(206, 201, 195);
-        height: 60px;
-        width: 60px;
+        .offers-catalog figcaption{
+       color: rgb(206, 201, 195);
+       margin-top: 5px;
+       font-weight: 700px;
+       font-size: 1.5em;
     }
-    footer img{
-        height: 70px;
-        width: 70px;
+        .offers-catalog img{
+        height: 600px;
+        width: 600px;
     }
-    footer a{
-        color:rgb(206, 201, 195) ;
+        .offers-catalog button{
+        border-radius: 10px;
+        background-color:rgb(19, 19, 214) ;
+        color: rgb(206, 201, 195)
     }
+    
+    
     .contact-chat h2{
         margin-left: 10%;
         text-align: start;
     }
-    .contact-chat{
+        .contact-chat{
         display: flex;
         flex-direction: column;
         
     }
-    .contact-chat a{
+        .contact-chat a{
         margin: 10px 10px;
         text-decoration: none;
         font-size: 1.5em;
         color:rgb(206, 201, 195)
     }
-    .contact-svg{
+        .contact-svg{
         color:rgb(206, 201, 195) ;
         height: 50px;
         width: 50px;
         margin: 5px 10px;
     }
-    .contact-location h2{
+        .contact-location h2{
         margin-left: 10%;
         text-align: start;
     }
-    .contact-iframe{
+        .contact-iframe{
         margin: 15px 15px;
         padding: 10px 10px;
     }
@@ -196,7 +196,7 @@ nav ul li{
         flex-direction: column;
         align-items: center;
     }
-    .login-form form input{
+        .login-form form input{
         margin: 7px 0px;
         padding: 0px 10px;
         height: 50px;
@@ -214,7 +214,7 @@ nav ul li{
         align-items: center;
         justify-content: center;
     }
-    .ps4-games figure{
+        .ps4-games figure{
         margin: 10px 10px;
         padding: 5px 5px;
         border: solid  rgb(206, 201, 195) 2px;
@@ -224,6 +224,7 @@ nav ul li{
         color:rgb(206, 201, 195);
         margin:5px 5px;
         font-size: 1.5em;
+        font: weight 700px; 
     }
     .ps4-games figure p{
         font-size: 1.3em;
@@ -277,6 +278,28 @@ nav ul li{
         height: 60px;
         width: 100px;
         font-size: 1.3em;
+    }
+    footer{
+        background-color:rgb(19, 19, 214) ;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 15px;
+        align-items: center;
+    }
+        footer div a{
+        margin: 10px 10px;
+    }
+        footer svg{
+        color:  rgb(206, 201, 195);
+        height: 60px;
+        width: 60px;
+    }
+        footer img{
+        height: 70px;
+        width: 70px;
+    }
+        footer a{
+        color:rgb(206, 201, 195) ;
     }
     @media (width < 768px){
         .index-highlight-products{
