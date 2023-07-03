@@ -109,6 +109,7 @@ nav ul li{
     .index-highlight-products img{
         height: 500px;
         width: 500px;
+        width: fit-content;
     }
     .index-highlight-products figure button{
         border-radius: 10px;
@@ -325,6 +326,14 @@ nav ul li{
         footer{
             width: 100%;
         }
+            footer svg{
+                width: 40px;
+                height: 40px;
+            }
+            footer img{
+                width: 40px;
+                height: 40px;
+            }
         .ps4-games{
             display: grid;
             grid-template-columns: 100%;
@@ -342,7 +351,6 @@ nav ul li{
         .index-highlight-products img{
             height: 200px;
             max-width: 500px;
-            min-width: none;
         }
         .ps4-games figure button{
             background-color:rgb(67, 67, 255);
