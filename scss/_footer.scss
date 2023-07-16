@@ -1,0 +1,24 @@
+
+footer{
+    background-color:rgb(19, 19, 214) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    margin-top: 15px;
+    svg{
+        color: $white;
+        height: 50px;
+        width: 50px;
+        margin: 10px 0px;
+        padding: 5px 5px;
+    }
+    img{    
+        height: 80px;
+        width: 80px;
+    }
+    a{
+        text-decoration: none;
+        color: $white;       
+    } 
+}

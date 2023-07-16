@@ -1,0 +1,67 @@
+@import "_vars.scss";
+@import "_mixin.scss";
+
+nav{
+    background-image: url(../multimedia/bat.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   @include space (5px 5px, 10px 10px);
+    img{
+        height: 80px;
+        width: 80px;
+    }
+    
+    svg{
+        height: 40px;
+        width: 40px;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+        li{
+            border: solid 1px $white;
+            border-radius: 10px;
+            margin: 0px 10px;
+            :hover{
+                background: rgb(2,0,36);
+                background: linear-gradient(90deg, rgba(2,0,36,1) 18%, rgba(9,9,121,1) 67%);
+                transform: scale(1.2);
+                border: solid $white 1px;
+                border-radius: 10px;
+                transition: all 2s;
+            }
+            
+        }
+    }
+
+}
+#white-text li a{
+    color: $white;
+}
+.login-btn{
+    text-decoration: none;
+    color:$white ;
+    margin-right: 20px;
+    
+}
+.search-bar{
+    height: 30px;
+    width: 120px;
+    align-self: center;
+    margin: 0px 15px;
+}
+
+.shop-cart{
+    @include space(10px 10px,10px 10px);
+   color: $white;
+   :hover{
+    color: $blue;
+   }
+    
+}
+
+.nav-li:hover{
+     
+}
