@@ -146,6 +146,47 @@ p{
 
         }
 }
+.background{
+    background-color: rgb(33, 30, 30) ;
+}
+#login-h1{
+    color: $blue;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    input{
+        @include space (10px 10px, 5px 10px);
+        border-radius: 10px;
+    }
+    .login-btn{
+            border-radius: 10px;
+            background-color:$blue ;
+            color: $white ;
+            height: 50px;
+            width: 120px;
+           font-weight:700;
+           font-size: 1.2em;
+        }
+        button:hover{
+            background-color: $white;
+            color: $blue;
+            transform: scale(1.2);
+            transition: all 1s;
+        }
+}
+.register-form{
+    @extend .login-form;
+    label{
+        color: $white;
+    }
+}
+.error-img{
+    width: 100vw;
+    height: 100vh;
+}
 @media (width < 768px){
     nav ul{
         display: flex;
@@ -161,6 +202,9 @@ p{
         display: flex;
         flex-direction: column;
         align-items: center;
+        figure{
+            width: auto;
+        }
         img{
             max-height: 300px;
             width: -moz-fit-content;
